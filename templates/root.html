@@ -1,8 +1,8 @@
 <div class="container">
     <div class="row">
-        <div class="col-xs-4"><img src="logo.jpg" class="img-responsive"/></div>
-        <div class="col-xs-4"><img src="logo_center.jpg" class="img-responsive"/></div>
-        <div class="col-xs-4"><img src="logo_right.jpg" class="img-responsive"/></div>
+        <div class="col-xs-4"><img src="logo.png" class="img-responsive"/></div>
+        <div class="col-xs-4"><img src="logo_center.png" class="img-responsive"/></div>
+        <div class="col-xs-4"><img src="logo_right.png" class="img-responsive"/></div>
     </div>
     <div ui-view=""></div>
 </div>
@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-4">
-                <a ng-if="debug" ng-click="next()" class="btn btn-default">Jackoff</a>
+                <a ng-if="debug" ng-click="next()" class="btn btn-default">Next</a>
                 <a ng-if="!(config.disableBackButton === 'true') && canGoBack()" onclick="history.back()" href="" ng-bind-html="language.backButton" class="btn btn-default"></a>
             </div>
 
