@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+//
+// In order to translate HtmlQ or to customize the texts,
+// just change the text between the opening and the closing
+// tag. The attribute 'id' is the name of the variable
+// and must remain unchanged.
+//
+// You can use HTML-tags, but you have to braces instead
+// of the normal angle brackets, otherwise the import will fail.
+// Example: {b}bold{/b}
+//
+// If your are using German Umlauts and other special
+// characters, make sure, that you save this XML-file
+// as an UTF-8-document. White-space inbetween the
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and
+// line breaks, is preserved.
+//
+// ===================================================
+//
+-->
+
+<language version="1.0" htmlParse="true">
+
+  <!-- misc -->
+  <item id="btnContinue">Continue...</item>
+  <item id="btnclose">Close</item>
+  <item id="btnHelp">Help me!</item>
+  <item id="btnAgreement">Most important to me</item>
+  <item id="btnAgreement2">Information MOST critical to me</item>
+  <item id="btnNeutral">Neutral</item>
+  <item id="btnDisagreement">Least important to me</item>
+  <item id="btnDisagreement2">Information LEAST critical to me</item>
+  <item id="btnTransfer">Submit data</item>
+  <item id="btnMail">Send via email</item>
+  <item id="btnPrint">Print data</item>
+  <item id="btnExit">Exit</item>
+  <item id="selectItem">Please select...</item>
+
+  <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+  <item id="leaveSiteWarning">Don't you walk out on me!</item>
+
+  <!-- HtmlQ only: In-App Back Button -->
+  <item id="backButton">Back</item>
+  <item id="fillInRequiredFields">Please fill in all required fields.</item>
+
+  <!-- errors -->
+  <item id="errorHead">Error!</item>
+  <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+
+  <!-- welcome screen (leave blank to skip screen) -->
+  <item id="welcomeHead">Welcome!</item>
+  <item id="welcomeText">This study is interested in evaluating how users interact with intelligent systems, such as artificial intelligence.{br}{br}Intelligent systems are a class of computer systems that offer recommendations to users. These recommendations can come in a variety of formats. For instance, when you search for a product on Amazon, other similar products will often be suggested to you based on your search. Another example is...{br}{br}In the next page, we will have you read a short story about a hypothetical computer system called D-SAM. This story will place you in the role of interacting with an intelligent system. After you read the story, you will be given more instructions. {br}{br}Once you are ready, please click on the continue-button.</item>
+
+  <!-- user login, only displayed if access is restricted (see config-file) -->
+  <item id="loginHead">User code</item>
+  <item id="loginText">Please enter your user code. Please note, that in this demo any user code will be accepted.{br}{br}{i}Tip: This is an optional step and you can deactivate it in your own survey.{i}</item>
+  <item id="loginFormHeader">User code</item>
+  <item id="loginNoInput">Please insert your user code.</item>
+  <item id="loginInvalidInput">User code invalid</item>
+  <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+  <!-- introduction (leave blank to skip popup) -->
+  <item id="introHead">Introduction to dSAM.</item>
+  <item id="introText">You have had an illustrious career and are nearing retirement. You and your partner are already making plans for what to do next: travel, buying a new home in a quiet village near the beach, and doing lots of shopping and playing golf.{br}{br}You receive a notice from your financial management firm. They are  announcing that all accounts are being moved to a fully-automated financial trading system, D-SAM (deep securities and accounting management). D-SAM is built on a state of the art neural network that processes millions of bits of financial information per second in order to make predictions on growth and future financial opportunities in the marketplace. D-SAM has been shown to outperform humans on both investment strategy and long term growth, and was recently featured on the cover of a prominent financial magazine that you read.{br}{br}Two weeks later you receive a notice that D-SAM recommends you move your mutual fund to a different index. You check the recommended index and read perspectives from other sources. None of them suggest to you that moving your money to this index is an obvious decision.{br}{br}Since yours is a managed fund, you are given five days to either consent or decline this recommendation, after which time D-SAM will consent by default and your accounts will be moved. If you decline D-SAM’s recommendation, your accounts will remain where they are.{br}{br}{br}{br}Please click on the continue-button.</item>
+
+  <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+  <item id="step1Head">Step 1 of 4</item>
+  <item id="step1Text">We want to know what information you would NEED in order to {i}{u}feel comfortable{/u}{/i} accepting the recommendation made by the computer.  Read the following questions carefully, and split them up into three piles: a pile for questions you think are critical, a pile for questions you don't think are that important, and a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or press 1, 2, 3 on your keyboard. You can rearrange these cards in the next step, so don't worry.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom right corner.</item>
+
+  <!-- step2: sorting (leave blank to skip popup) -->
+  <item id="step2Head">Step 2 of 4</item>
+  <item id="step2Text">Now, begin by dragging each question into the table above. The most critical or important question {i}TO YOU{/i} goes on the far right. Continue to do this until you have filled in all of the table and the least critical or important question {i}TO YOU{/i} is on the far left.{br}{br} Once the table is completely filled, feel free to rearrange the questions until you are satisfied.{br}{br}</item>
+
+  <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+  <item id="step3Head">.</item>
+  <item id="step3Text">.</item>
+
+  <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+  <item id="step4Head">Step 3 of 4</item>
+  <item id="step4Text">We would like to understand more about why you chose these questions as the most/least critical or important. Please tell us in your own words what you think.{br}{br}</item>
+
+  <!-- step5: Additional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+  <item id="step5Head">Step 4 of 4</item>
+  <item id="step5Text">Now, we would like to know a few things about you. Please answer the following questions.{br}{br}</item>
+
+  <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+  <item id="transferHead">Submit Data</item>
+  <item id="transferText">You've finished the survey. Please submit your data now.</item>
+  <item id="transferFailed">Data submission failed. Please try again or mail your results via email/post.</item>
+  <item id="transferOk">Thank you for participating! If you have any questions about this research, please do not hesitate to contact the study sponsor:<a href="mailto:esvorm@iu.edu" target="_top">Eric Vorm</a>{br}{br}You can now close your browser window.</item>
+
+  <!-- send data via mail, only displayed if submitUrl is blank (see config-file) -->
+  <item id="mailHead">Submit Data</item>
+  <item id="mailText">You can either submit your data either via email or post. In the former case you'll need an email client like Outlook, in the latter a printer.</item>
+
+  <!-- e-mail-body -->
+  <item id="mailBody">Thank you for participating in our survey. Please do not modify the following text:</item>
+
+  <!-- print out -->
+  <item id="printoutText">Somebody{br}Some street 100{br}Some city{br}{br}Please send this printout to address mentioned above. Thanks for you help.</item>
+
+</language>

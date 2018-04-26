@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+// 
+// This is the place for your statements. The maximum 
+// number of statements is theoretically unlimited, but
+// less then 50 statements are advisable.
+// If your are using German Umlauts and other special 
+// characters, make sure, that you save this XML-file 
+// as an UTF-8-document. White-space inbetween the 
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and 
+// line breaks, is preserved.
+//
+// EXAMPLE
+// Let's define some statements concerning FlashQ:
+// Statement 1: FlashQ is very usefull.
+// Statement 2: I prefer offline surveys.
+// Statement 3: FlashQ is too complicated to configure.
+//
+// Each statement requires a seperate statement-node 
+// consisting out of an opening and a closing tag. The 
+// statement itself goes between this two tags. 
+// The unique statement id is saved as an 
+// attribute called 'id'. We have three exmaple 
+// statements and we need therefore three statement-
+// nodes and one parent-node. 
+//
+// <statements version="1.0" htmlparse="false">
+//   <statement id="1">FlashQ is very usefull.</statement>
+//   <statement id="2">I prefer offline surveys.</statement>
+//   <statement id="3">FlashQ is too complicated to configure</statement>
+// </statements>
+// 
+// ===================================================
+// 
+-->
+<statements version="1.0" htmlParse="false">
+  <statement id="1">How current is the data used in making this recommendation?</statement>
+  <statement id="2">How clean/accurate is the data used in making this recommendation?</statement>
+  <statement id="3">How much data was used to train this system?</statement>
+  <statement id="4">Can I see the data for myself?</statement>
+  <statement id="5">What is the signal:noise ratio?</statement>
+  <statement id="6">How is this data weighted or what does the system prioritize?</statement>
+  <statement id="7">What does the system depend on in order to work properly, and do we know if those dependencies are functioning properly?</statement>
+  <statement id="8">Is my data uniquely different from the data on which the system has been trained?</statement>
+  <statement id="9">What is the level of uncertainty in this recommendation?</statement>
+  <statement id="10">How often is the system checked for model accuracy?</statement>
+  <statement id="11">What safeguards are there to protect users from incorrect system outputs?</statement>
+  <statement id="12">How many other options are there?</statement>
+  <statement id="13">What are the pros/cons associated with this option?</statement>
+  <statement id="14">Why is this recommendation the best option?</statement>
+  <statement id="15">What indicators were considered in this recommendation, and how are they weighted?</statement>
+  <statement id="16">What is the history of performance of this system?</statement>
+  <statement id="17">Under what circumstances has this system been wrong in the past?</statement>
+  <statement id="18">Precisely what information about me does the system know, and how is that information considered in this recommendation?</statement>
+  <statement id="19">Was this recommendation made specifically for ME (based on my profile/interests), or was it made based on something else (based on some other model, such as corporate profit, or my friend’s interests, etc.)?</statement>
+  <statement id="20">Does the system know and understand my goals?</statement>
+  <statement id="21">What does the system THINK I want to achieve? (How does the system represent my priorities and goals?)</statement>
+  <statement id="22">Can I influence the system by providing feedback? Will it listen and consider my input?</statement>
+  <statement id="23">What is the system’s level of confidence in this recommendation?</statement>
+  <statement id="24">How is ‘system confidence’ measured?</statement>
+  <statement id="25">What is the system’s level of “acceptable risk?”</statement>
+  <statement id="26">What does the system think is MY level of “acceptable risk?”</statement>
+  <statement id="27">How many other people have received this recommendation from this system?</statement>
+  <statement id="28">How many other people have accepted or rejected this recommendation from this system? (What is the ratio of approve:disapprove?)</statement>
+</statements>
